@@ -56,7 +56,7 @@ This step is the same as reviewed during our introduction.
 ---
 
 ### Step Two: Describe the Bug
-
+Again follow the gudde from the introduction topic.
 * Is it reproduceable?
 * How can you make it happen again?
 * What happened?
@@ -65,15 +65,14 @@ This step is the same as reviewed during our introduction.
 * When did it happen?
 * What can support this?
 * How critical is it?
-* etc
 
 ---
 
 ### Step Three: Snapshot
 
-For printf() debugging... taking a snapshot is pretty straight forward. Unlike many other methods, we aren't going to take a legit snapshot. Instead, we are going to take a logical guess. It's best to have a general idea of where the issue is happening. Otherwise, we are going to end up printing things all day. 
+For printf(), taking a snapshot is fairly simple. Unlike other methods, we aren't going to take a legit snapshot. Instead, we narrow down the area of where the issue occurred and debug that portion. 
 
-Let's take a look at the example:
+**Let's take a look at the example:**
 * Where does the code first break in this program? 
 * What should we print out? 
 * Let's capture that data and move on.
@@ -82,21 +81,22 @@ Let's take a look at the example:
 
 ### Step Four: Analyze Snapshot
 
-As we stated above, we did not take an entire snapshot. Nor should we ever do that using printf() due to how inefficient that would be. Let's take a look at the data we did gather though:
+Let's take a look at the data we did gather though:
 
-* We have what the values actually are, did they meet our expectations? ex:
+* Did the values meet our expectations? ex:
   * We have a while loop on line 22, was it's exit condition met?
   * Were the switch case conditions met?
   * Did the if statement on line 60 meet our expectations?
-  * etc
+  * The answer should be no. Something messed up.
 
-The answer should be no. Something messed up. Something did not meet our expectations. What was it?
-
-If a condition isn't being met as expected... did we set that condition up correctly? If so, why isn't the condition being met? How can we make it behave as expected?
+If a condition isn't being met as expected; did we set that condition up correctly? If so, why isn't the condition being met? How can we make it behave as expected?
 
 ---
 
 ### Step Five: Step 5: Fix the Bug
 
-Now that we've identified the bug, let's fix it.
+Once the bug has been identified, it is time to fix it. 
+* What is the fix?
+* Now that the bug is identified, fix it, and recheck.
+
 
