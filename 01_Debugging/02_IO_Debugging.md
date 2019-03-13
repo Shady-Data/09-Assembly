@@ -35,7 +35,6 @@ We can do this by going through step by step.
 
 **What is the program's purpose?**
 * **It's a simple calculator with add, subtract, multiply and division. The program continues to run until user tells it to stop. 
-
 **What did we expect to happen?**
 * **We expected that a user would select what kind of operation they wanted to do.** 
   * **If they selected something wrong, the prompt would appear again asking for selection.** 
