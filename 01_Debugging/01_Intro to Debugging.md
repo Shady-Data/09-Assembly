@@ -7,7 +7,7 @@
 Upon completion of this topic, the student should have a basic understanding of the following concepts:
 
 
-* **What is Debugging? **
+* **What is Debugging**
 * **What tools can be used for debugging**
 * **The Debugging Process**
 
