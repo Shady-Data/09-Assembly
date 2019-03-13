@@ -1,33 +1,51 @@
 # Objectives
 
 This topic provides the student with knowledge and skills on:
+
 *  **Printf() debugging concepts**
+
 * **How to printf() debug**
   * **Pre Checks**
   * **Five steps of debugging printf()**
 
+---
+
 # Printf() Debugging
 
-The first and most basic method of debugging we will be going over is **Printf() Debugging**. While this is often looked down by modern debugging tools, it's still a proven and indispensable method of debugging. 
+In this topic we're going to review the method for **Printf() Debugging**. 
 
-The concept is quiet simple. Print variables, outputs, etc to see if the data falls true to your expecations. Recall `step 4: analyze snapshot`: by using printf(), we can begin to test all of the things we think to be true *(ex: this value should be 5, this return should be this pointer, this condition should be true)*. As we find things that do not meet our expecations, we can begin to formulate **why** and **how**. 
+## Note: Printf() is often overlooked by modern debugging tools, but is still a proven and indispensable method of debugging. 
 
-Again, this is not the desired method of debugging. It can get sloppy and may even take away more time than it's worth. But sometimes... just sometimes it's a tried and proven method. You are the only one who can be the judge of that. 
+To debug using printf()
+* Print variables, outputs, etc. to see if the data meets your expecations. 
 
+Recall `step 4: analyze snapshot`: Using printf(), we can test all of the things we think to be true 
+
+*example: a value should be 5, a return should be at this pointer, this condition should be true...* 
+
+As code is found that does not meet our expectations, we can begin to formulate **why** and **how**. 
+
+This is not the desired method of debugging for most cases. It can get sloppy and may even take more time than it's worth. But it's a tried and proven method. You are the only one who can be the judge of that
 ---
 
 ## How to printf() Debug
 
 Let's begin by walking through `print_demo`. 
 
-We are going to treat demo as if we would in the real world. We are going to walk through step by step. 
+We can do this by going through step by step. 
 
 ### Pre-Checks
 
 * **What is the program's purpose?**
   * It's a simple calculator with add, subtract, multiply and division. The program continues to run until user tells it to stop. 
 * **What did we expect to happen?**
-  * We expected that a user would select what kind of operation they wanted to do. If they selected something wrong, the prompt would appear again asking for selection. If they selected correctly, it would then route the user to the correct function. At which point the function would ask for two numbers to perform some sort of math. The value would then be returned and printed. Lastly, the program would ask if the user wants to continue. (Loop the program)
+* **What really happened?**
+* **We expected that a user would select what kind of operation they wanted to do.** 
+  * **If they selected something wrong, the prompt would appear again asking for selection.** 
+  * **If they selected correctly, it would then route the user to the correct function.  The function would ask for two numbers to perform some sort of math at that point. 
+
+
+The value would then be returned and printed. Lastly, the program would ask if the user wants to continue. (Loop the program)
 * What really happened?
   * ???
 * What should of happened?
