@@ -146,7 +146,7 @@ We will of course go over many different methods of analyzing and identifying bu
 
 Fixing the bug is pretty straight forward. 
 
-Once the cause of the bug has been identified; fix the code. 
+Once the cause of the bug has been identified; **Fix the Code**. 
 
 Once completed, we need to ensure no further bugs were created by our "fixing" the previous bug. 
 
