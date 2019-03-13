@@ -1,3 +1,13 @@
+# Objectives
+
+This topic provides the student with knowledge and skills on:
+*  **Printf() debugging concept**
+* **How to printf() debug**
+** **Pre Checks**
+** **Five steps of debugging printf()**
+
+
+
 # Printf() Debugging
 
 The first and most basic method of debugging we will be going over is **Printf() Debugging**. While this is often looked down by modern debugging tools, it's still a proven and indispensable method of debugging. 
