@@ -128,7 +128,7 @@ We gather this information by using tools such as debuggers, I/O, test assertion
 
 Analyze all of the information we have gathered from the snapshot. 
 To do this:
-* **Confirm conditions, variables, stack allignment, etc. 
+* **Confirm conditions, variables, stack allignment, etc.** 
 When we find something in code that is producing an output we didn't expect; attempt to discover **Why**. 
 
 This analysis often requires backstepping to the first thing we find to be false and continuing until we run into a series of things we find to be true. 
