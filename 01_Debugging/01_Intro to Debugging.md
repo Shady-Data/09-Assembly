@@ -15,11 +15,12 @@ Or maybe you asked yourself,
 * **My code compiled, what do these warnings mean though?**
     * **Why is my program doing something I didn't expect?**
 
-Debugging is using a tool that doesn't necessarily give us the answer... but helps us find it. **De** means to denote removal. **Bug** is just an error, flaw, failure or fault within a program. This can be in the compilation process or some incorrect code. 
+Debugging is using a tool that doesn't necessarily give us the answer; but helps us find it.  This can be in the compilation process or some incorrect code. 
+**De** means to denote removal. **Bug** is just an error, flaw, failure or fault within a program.
 
 ## Tools Used
 
-Many different tools exist. One must keep in mind their development enviroment when choosing debugging tools. For our case, we our in Linux (Debian base) programming in C. That leaves us with a ton of different tools we can utilize. For the sake of this course, our tools are listed below:
+Identified below are some of the different tools that we can utilize for debugging.  When debugging, keep in mind the development when choosing your debugging tool.
 
 * GDB
 * `<stdio>`
@@ -38,7 +39,7 @@ There are two general questions to ask yourself when you run into a bug:
 Once you have those questions answered, there are five general steps to take when debugging:
 
 1. Reproduce the bug
-   1. If it's a compilation issue... try compiling again... and maybe one more time. If you are recieving the same compile error and the code still doesn't compile, then it's time to look at **why**. 
+   1. If it's a compilation issue... try compiling again... and maybe one more time. If you are receiving the same compile error and the code still doesn't compile, then it's time to look at **why**. 
    2. If the code compiles but the program crashes, repeat the above and observe what is happening. Can you reproduce this bug?
    3. If the code compiles and everything works fine, but you notice it's not what you expected to happen. Can you reproduce this?
 2. Describe the bug
@@ -50,7 +51,6 @@ Sounds kind of simple... right? Well, this has the potential to be a daunting ta
 
 ---
 
-
 ### Step One: Reproduce the Bug
 
 Being able to reproduce the bug is extremely important. This helps identify if it's even a bug at all. This also gives us crucial data for the remaining steps. 
@@ -60,11 +60,11 @@ Being able to reproduce the bug is extremely important. This helps identify if i
 * **When did it happen?**
 * **How did you manage to reproduce it?**
 
-Here's the first step. You just attempted to compile your code. You expected at least one major thing to happen... 
+Here's the first step. Attempted to compile your code. You expected at least one major thing to happen. 
 
 #### Did your code compile?
 
-If no, then that is a bug. Something in your code is causing a compilation error. Run it again to be sure that it's not your IDE causing the error or some "glitch". If it still fails, mark it down as a compilation bug. You managed to **reproduce** it, just by re-compiling the code. Move on to step 2. 
+If no, then there is a bug. Something in your code is causing a compilation error. Run it again to be sure that it's not your IDE causing the error or some **"glitch"**. If it still fails, mark it down as a compilation bug. If you managed to **reproduce** it, just by re-compiling the code. Move on to step 2. 
 
 If yes, then you are solid. Continue.
 
@@ -76,9 +76,15 @@ If no, then continue.
 
 #### Did the program do as you expected? Or did your test case pass?
 
-If no, then something in your code has been done wrong or you programmed your test case incorrectly. **Can you reproduce this output?**. If yes, then **how did you reproduce it?** Does it sometimes return the correct expectation? Mark it down as a bug, move on to step 2. 
+If no:
+* Something in your code has been done wrong or 
+* You programmed your test case incorrectly. 
+**Can you reproduce this output?**. If yes, 
+* How did you reproduce it?
+* Does it sometimes return the correct expectation? 
+* Mark it down as a bug, move on to step 2. 
 
-If yes, then either your code is fine. 
+If yes, then your code is fine. 
 
 ---
 
