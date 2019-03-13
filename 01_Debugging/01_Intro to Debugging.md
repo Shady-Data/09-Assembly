@@ -4,7 +4,7 @@
 
 ## What is debugging?
 
-I'm sure by now, you have more than likely experienced C code that would not compile. You probably asked yourself, 
+By now, you have more than likely experienced C code that would not compile. You probably asked yourself, 
 
 * **Why did this happen?** 
 * **What can I do to fix this?**
@@ -15,7 +15,7 @@ Or maybe you asked yourself,
 * **My code compiled, what do these warnings mean though?**
     * **Why is my program doing something I didn't expect?**
 
-These are all great questions a developer should be asking themself. Debugging is a tool that doesn't necessary give us the answer... but helps us find it. **De** means to denote removal. **Bug** is just an error, flaw, failure or fault within a program. This can be in the compilation process or some incorrect code. 
+Debugging is using a tool that doesn't necessarily give us the answer... but helps us find it. **De** means to denote removal. **Bug** is just an error, flaw, failure or fault within a program. This can be in the compilation process or some incorrect code. 
 
 ## Tools Used
 
