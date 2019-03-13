@@ -14,9 +14,9 @@ This topic provides the student with knowledge and skills on:
 
 In this topic we're going to review the method for **Printf() Debugging**. 
 
-**Note: Printf() is often overlooked by modern debugging tools, but is still a proven and indispensable method of debugging.** 
+**Note: Printf() is often overlooked by modern debugging tools, but is still a proven and indispensable method of debugging. 
 
-To debug using printf()
+**To debug using printf()
 * Print variables, outputs, etc. to see if the data meets your expecations. 
 
 Recall `step 4: analyze snapshot`: Using printf(), we can test all of the things we think to be true 
