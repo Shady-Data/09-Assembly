@@ -150,4 +150,4 @@ Once the cause of the bug has been identified; **Fix the Code**.
 
 Once completed, we need to ensure no further bugs were created by our "fixing" the previous bug. 
 
-Accomplish this by re-running the or by creating an identical snapshot and re-analyzing the original "ladder" again. 
+To do this, re-run the code, or create an identical snapshot and re-analyze the original "ladder". 
