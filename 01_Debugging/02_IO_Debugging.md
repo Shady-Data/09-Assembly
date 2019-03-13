@@ -35,10 +35,10 @@ We can do this by going through step by step.
 
 ### Pre-Checks
 
-* **What is the program's purpose?**
+**What is the program's purpose?**
   * It's a simple calculator with add, subtract, multiply and division. The program continues to run until user tells it to stop. 
-* **What did we expect to happen?**
-* **What really happened?**
+**What did we expect to happen?**
+**What really happened?**
 * **We expected that a user would select what kind of operation they wanted to do.** 
   * **If they selected something wrong, the prompt would appear again asking for selection.** 
   * **If they selected correctly, it would then route the user to the correct function.  The function would ask for two numbers to perform some sort of math at that point. 
