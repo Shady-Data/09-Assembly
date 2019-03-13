@@ -27,8 +27,7 @@ In this topic we're going to review the method for **Printf() Debugging**.
 
 ## How to printf() Debug
 
-Let's begin by walking through `print_demo`. 
-
+**Let's begin by walking through `print_demo`** 
 We can do this by going through step by step. 
 
 ### Pre-Checks
@@ -49,9 +48,10 @@ We can do this by going through step by step.
 
 ---
 
-### Step One: Reproduce the Bug
-
-* Can we reproduce this issue? 
+### Step One: Can we reproduce this issue? 
+This step is the same as reviewed during our introduction.
+* What are some ways you can reproduce a bug?
+* Why is this important?
 
 ---
 
