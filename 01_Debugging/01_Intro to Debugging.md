@@ -127,11 +127,14 @@ We gather this information by using tools such as debuggers, I/O, test assertion
 `Confirm the things you believe to be true... until you find something that's not true`
 
 Analyze all of the information we have gathered from the snapshot. 
+
 To do this:
-* **Confirm conditions, variables, stack allignment, etc.** 
+* **Confirm conditions, variables, stack allignment, etc.**
+
 When we find something in code that is producing an output we didn't expect; attempt to discover **Why**. 
 
 This analysis often requires backstepping to the first thing we find to be false and continuing until we run into a series of things we find to be true. 
+
 Generally this location in code contains the bug. 
 ## Sometimes, it can be more complicated than that.
 
@@ -142,5 +145,8 @@ We will of course go over many different methods of analyzing and identifying bu
 ### Step 5: Fix the Bug
 
 Fixing the bug is pretty straight forward. 
-Once the cause of the bug has been identified; fix the code. Once completed, we need to ensure no further bugs were created by our "fixing" the previous bug. 
+
+Once the cause of the bug has been identified; fix the code. 
+
+Once completed, we need to ensure no further bugs were created by our "fixing" the previous bug. 
 This can be done by running the code again or creating an identical snapshot and re-analyzing the same "ladder" we just analyzed. 
