@@ -149,4 +149,5 @@ Fixing the bug is pretty straight forward.
 Once the cause of the bug has been identified; fix the code. 
 
 Once completed, we need to ensure no further bugs were created by our "fixing" the previous bug. 
-This can be done by running the code again or creating an identical snapshot and re-analyzing the same "ladder" we just analyzed. 
+
+Accomplish this by re-running the or by creating an identical snapshot and re-analyzing the original "ladder" again. 
