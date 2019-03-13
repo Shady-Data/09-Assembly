@@ -78,11 +78,11 @@ If no, then continue.
 
 If no:
 * **Something in your code has been done wrong or** 
-* You programmed your test case incorrectly** 
-**Can you reproduce this output?**. If yes, 
+* **You programmed your test case incorrectly** 
+* **Can you reproduce this output? If yes,** 
 * **How did you reproduce it**
 * **Does it sometimes return the correct expectation?** 
-* **Mark it down as a bug, move on to step 2* 
+* **Mark it down as a bug, move on to step 2** 
 
 If yes, then your code is fine. 
 
