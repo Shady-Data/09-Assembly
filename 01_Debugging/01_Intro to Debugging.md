@@ -155,8 +155,8 @@ We will of course go over many different methods of analyzing and identifying bu
 
 Fixing the bug is pretty straight forward
 
-* **Once the cause of the bug has been identified; **Fix the Code**. 
+* Once the cause of the bug has been identified; **Fix the Code**. 
 
-* **After fixing the code, we need to ensure no further bugs were created by our "fixing" the previous bug.** 
+* After fixing the code, we need to ensure no further bugs were created by our "fixing" the previous bug. 
 
-* **To do this, re-run the code, or create an identical snapshot and re-analyze the original "ladder".** 
+* To do this, re-run the code, or create an identical snapshot and re-analyze the original "ladder".
