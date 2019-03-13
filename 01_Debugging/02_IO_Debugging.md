@@ -3,10 +3,8 @@
 This topic provides the student with knowledge and skills on:
 *  **Printf() debugging concept**
 * **How to printf() debug**
-** **Pre Checks**
-** **Five steps of debugging printf()**
-
-
+ * **Pre Checks**
+ * **Five steps of debugging printf()**
 
 # Printf() Debugging
 
