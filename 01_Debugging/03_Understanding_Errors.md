@@ -21,6 +21,7 @@ As identified in the objectives the most common types of errors include:
 * **Linker Error**
 * **Logical Error**
 * **Semantic Error**
+
 ---
 
 ## Syntax Errors
@@ -29,14 +30,15 @@ The Syntax error is one of the most common error types.  It occurs when there is
  Syntax errors are detected at compile-time in C programming and will not allow your program to compile until resolved. 
  Examples of syntax errors include:
 
-* Missing curly-bracket or parenthesis
-* Missing semi-colon
-* Failing to declare a variable before using it
-* Mis-spelling a function or variable
+* **Missing curly-bracket or parenthesis**
+* **Missing semi-colon**
+* **Failing to declare a variable before using it**
+* **Mis-spelling a function or variable**
 
 Example of compile output:
 
 `error: expected ';' before '}' token`
+
 ---
 
 ## Identifying Syntax Errors
@@ -45,7 +47,6 @@ Syntax errors can be identified easily.
 A big indication is that the program never compiles.  That is usually due to a Syntax error.
 GCC and IDE's with built in debuggers will be also produce information that indicate an error.
 
----
 ## Finding Syntax Errors
 
 Syntax errors are not too difficult to locate.  Whether you compiled via terminal or IDE, you will generally recieve: 
@@ -67,7 +68,6 @@ As we can see here, the mistake is on line 4 character 30 in main.c (main.c:4:30
 
 `main.c:4:30: error: expected ‘;’ before ‘return’`
 
----
 
 ## Fixing Syntax Errors
 
@@ -83,14 +83,17 @@ Simply replace or add to the syntax to correct the problem and then re-compile y
 Run-Time errors occur during program execution, following a successful compilation. These types of errors are not easy to find. There are no messages pointing to the location from the compiler. 
 
 **Example**
+
 ```
 warning: division by zero [-Wdiv-by-zero]
     div = n/0;
 ```
----
+
 ## Identifying Run-Time Errors
 
 Run-time errors may be a bit more difficult to find than Syntax Errors. Luckily for us, most compilers will produce a `warning` indicating where the problem is. 
+
+---
 
 ## Finding Run-Time Errors
 
@@ -104,8 +107,6 @@ main.c:4:14: warning: division by zero [-Wdiv-by-zero]
      int x = 4/0;
 ```
 We can see that the error happened on line 4 and is the 14th character on that line.  inside of main.c. 
-
----
 
 ## Fixing Run-Time Errors
 
@@ -138,6 +139,8 @@ Build finished
 ```
 `no output on executable`
 
+---
+
 ### Finding Linker Errors
 
 If you reference the compiler warning above, the line and character number is provided above. This warning points to the `foo()` call in main. `foo()` was declared as `Foo()` above main (or in a header) with a capital H. 
@@ -167,13 +170,15 @@ else: (No unit test) You must take a snapshot and begin analyzing the informatio
 
 Finally, you will have to begin stepping through the code with blocks setup. Followed by stepping back into your code until you find the root cause or causes. 
 
+---
+
 ## Fixing Logical Errors
 
 Once the code is identified, the programmer will generally have to change up the logic. 
 **A few examples might be:** 
 * **A variable was assigned rather than using the equal-to operator** 
 * **Maybe the condition needs a `>=` rather than just a `==`** 
-* **Perhaps the code is itterating the wrong direction. Etc** 
+* **Perhaps the code is iterating the wrong direction. Etc** 
 
 Fixing the error is as simple as fixing the logic. This will be a common occurance for a newer programmer. 
 
@@ -181,11 +186,12 @@ Fixing the error is as simple as fixing the logic. This will be a common occuran
 
 ## Semantic Errors
 
-These errors occur because the statements within the program are not meaningful to the compiler. The syntax used is correct... but maybe the programmer used the wrong variables, operations or order. For example, initializing a variable and trying to increment it without declaring the variable. Or doing something like `a + b = c`. 
+These errors occur because the statements within the program are not meaningful to the compiler. The syntax used is correct, but maybe the programmer used the wrong variables, operations or order. 
+For example; initializing a variable and trying to increment it without declaring the variable. Or doing something like `a + b = c`. 
 
 ## Identifying/Finding Semantic Errors
 
-Semantic errors will be very similar to Logical Errors. You often won't even know you have a bug until you see the output. Again, unit testing should make this error more easy to identify. Otherwise, you will have to find the abnormality and determine what the error is once you find it. Viewing variable values are a very useful way to identify this error. 
+Semantic errors will be very similar to Logical Errors. Again, unit testing should make this error more easy to identify. Otherwise, you will have to find the abnormality and determine what the error is once you find it. Viewing variable values are a very useful way to identify this error. 
 
 ## Fixing Semantic Errors
 
@@ -193,24 +199,19 @@ Just like fixing logical errors, the programmer will have to fix their error in 
 
 ---
 
-# Some Common Examples
-
 ## Core Dump (Segmentation Fault)
 
-Core Dumps are a type of Run-Time error. They occur when you access memory that does not belong to you. For instance, when a piece of code tries to do read/write operations in a read only location of memory. Or if there is memory corruption. 
-
-### Some Examples of this are:
-
-```c
+Core Dumps are a type of Run-Time error. They occur when you access memory that does not belong to you. 
+Example:  When a piece of code tries to do read/write operations in a read only location of memory. 
 char x[5] = "Yall";
 x[6] = 'l';
-```
-This will cause a `SIGARBT` which will dump the core. In this example, it's practically gurenteed to happen every single time. Here is the complete error:
 
 ```
+This will cause a `SIGARBT` which will dump the core. 
 *** stack smashing detected ***: <unknown> terminated
 
 Process finished with exit code 134 (interrupted by signal 6: SIGABRT)
+
 ```
 
 But something like this may not even throw a segfault.... until it does. 
