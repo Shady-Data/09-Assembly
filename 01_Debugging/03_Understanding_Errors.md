@@ -12,7 +12,9 @@ Upon completion of this topic, the student will have a fundemental understanding
 
 ## Introduction
 
-There are multiple types of errors in the C Programming langauge that can occur while we are attempting to compile our code.  Being able to recognize these can help us to code more efficiently and effectively.  An **error** is simply an illegal operation that was performed by the user that results in an abnormality of sort.  As identified in the objectives the most common types of errors include:
+There are several types of errors can occur while compiling our code in C Programming.  Recognizing these can errors when they happen can help us to code more efficiently and effectively.  An **error** is simply an illegal operation that was performed by the user that results in an abnormality of sort.  
+
+As identified in the objectives the most common types of errors include:
 
 * **Syntax Error**
 * **Run-Time Error**
@@ -23,7 +25,9 @@ There are multiple types of errors in the C Programming langauge that can occur 
 
 ## Syntax Errors
 
-These occur when you violate the rules of the C Programming syntax; aka your code is just not written following the rules of C. This is a very common reason for no compilation. Some examples of this are:
+The Syntax error is one of the most common error types.  It occurs when there is an error in a character or string incorrectly placed in a command or instruction that causes a failure in execution.  Basically, your code is just not written following the rules of C
+ Syntax errors are detected at compile-time in C programming and will not allow your program to compile until resolved. 
+ Examples of syntax errors include:
 
 * Missing curly-bracket or parenthesis
 * Missing semi-colon
@@ -36,11 +40,18 @@ Example of compile output:
 
 ### Identifying Syntax Errors
 
-These errors can be identified easily. First off, the program never compiles. That is a large indication of a Syntax error. GCC and IDEs with built in debuggers will also produce information that indicate an `error`. 
+Syntax errors can be identified easily.
+A big indication is that the program never compiles.  That is usually due to a Syntax error.
+GCC and IDE's with built in debuggers will be also produce information that indicate an error.
 
 ### Finding Syntax Errors
 
-Luckily for us, these errors are often easy to find. Rather you compiled via terminal or IDE... you will generally recieve the error, the problem and the line number on which it happened. Below is an exmaple of us missing a semi-colon and the GCC output of such a mistake. 
+Syntax errors are not too difficult to locate.  Whether you compiled via terminal or IDE, you will generally recieve: 
+* **The error** 
+* **The problem** 
+* **The code line number where error occured**
+
+Below is an exmaple of a missing semi-colon and the GCC output from this mistake 
 
 ```
 yes_senpai@pop-os:~/CLionProjects/debugging_test$ gcc main.c 
