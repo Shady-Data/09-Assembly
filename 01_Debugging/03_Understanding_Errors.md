@@ -66,13 +66,16 @@ main.c:4:30: error: expected ‘;’ before ‘return’
 As we can see here, the mistake is on line 4 character 30 in main.c (main.c:4:30):
 
 `main.c:4:30: error: expected ‘;’ before ‘return’`
+
 ---
 
 ## Fixing Syntax Errors
 
 Once the error has been identified and Syntax errors are often easy to fix. 
 Simply replace or add to the syntax to correct the problem and then re-compile your code. 
+
 **Note:** Often more thatn one error occurs when you initially compile your code.  Be sure to look for additional errors and correct those as well.
+
 ---
 
 ## Run-Time Errors
