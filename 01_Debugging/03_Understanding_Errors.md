@@ -1,6 +1,6 @@
-# Reading and Understanding Errors
+## Objectives
 
-There are multiple types of errors in the C Programming langauge. An **error** is simply an illegal operation that was performed by the user. This operation results in some sort of abnormality of the program. The most common types of errors are:
+Upon completion of this topic, the student will have a fundemental understanding and be able to recognize the following common errors:
 
 * **Syntax Error**
 * **Run-Time Error**
@@ -8,6 +8,17 @@ There are multiple types of errors in the C Programming langauge. An **error** i
 * **Logical Error**
 * **Semantic Error**
 
+---
+
+## Introduction
+
+There are multiple types of errors in the C Programming langauge that can occur while we are attempting to compile our code.  Being able to recognize these can help us to code more efficiently and effectively.  An **error** is simply an illegal operation that was performed by the user that results in an abnormality of sort.  As identified in the objectives the most common types of errors include:
+
+* **Syntax Error**
+* **Run-Time Error**
+* **Linker Error**
+* **Logical Error**
+* **Semantic Error**
 ---
 
 ## Syntax Errors
