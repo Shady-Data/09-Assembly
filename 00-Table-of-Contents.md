@@ -1,7 +1,7 @@
 # Debugging & Assembly - Table of contents
 
 * [Introduction](README.md)
-  * [Intro to Debugging](05-Debugging-Assembly/01_Debugging/01_Intro_to_Debugging.md)
+  * [Intro to Debugging](01_Debugging/01_Intro_to_Debugging.md)
 
 
 
