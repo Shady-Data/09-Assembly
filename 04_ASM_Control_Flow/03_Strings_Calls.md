@@ -85,4 +85,3 @@ cld     ; clear the direction flag, continue operations
 * Proceed to lab8 and follow the instructions
 
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Continue to Lab 8"> Continue to Lab 8 </a>
-https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_8
