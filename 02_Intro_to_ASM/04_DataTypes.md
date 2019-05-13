@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Assembly Data Types and GDB Part 2
 
 * When we think "data types", we need to understand that in Assembly, it's a different concept than in higher level languages. Typically in Assembly, data types are just bytes in a buffer. "Data type" is just an interpretation that's differentiated by size, alignment and certain bits being set. 
