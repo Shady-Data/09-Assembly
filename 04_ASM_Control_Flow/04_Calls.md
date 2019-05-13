@@ -234,10 +234,8 @@ call_strlen:
 
 # Lab 9
 
-* Proceed to lab9 and follow the instructions
-
 # Windows Functions Lab
 
 * Will edit with instructions on how to setup Visual Studio
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_8" rel="Continue to Lab 8"> Continue to Lab 8 </a>
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_9" rel="Continue to Lab 9"> Continue to Lab 9 </a>
