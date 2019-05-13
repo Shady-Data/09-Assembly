@@ -87,4 +87,4 @@ movzx rax, byte [rsi + 5]       ; what happens here?
 ## Lab2
 Proceed to the Lab2 directory and follow instructions
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/02_Intro_to_ASM/Lab_2" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/02_Intro_to_ASM/Lab_2" rel="Continue to Next Topic"> Continue to Next Topic </a>
