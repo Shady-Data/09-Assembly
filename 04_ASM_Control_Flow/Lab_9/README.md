@@ -2,8 +2,7 @@
 
 Complete Lab 9, follow the instructions provided in the folders.
 
-
-** Choose one of the options below or return to the Table of Contents, when complete **
+### Choose one of the options below or return to the Table of Contents, when complete
 
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/ASM_Handouts" rel="Continue to the Handout page"> Continue to the Handout page </a>
 
