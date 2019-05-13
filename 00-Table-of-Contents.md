@@ -27,7 +27,7 @@
   * [Lab 5](03_ASM_Basic_Operations/Lab_5)
 * [ASM Control Flow](04_ASM_Control_Flow/README.md)
   * [Flags](04_ASM_Control_Flow/01_Flags.md)
-  * [Lab 6](04_ASM_Basic_Operations/Lab_6)
+  * [Lab 6](04_ASM_Control_Flow/Lab_6/README.md)
   * [Control Flow](04_ASM_Control_Flow/02_Control_Flow.md)
   * [Lab 7](04_ASM_Basic_Operations/Lab_7)
   * [String Calls](04_ASM_Control_Flow/03_Strings_Calls.md)
