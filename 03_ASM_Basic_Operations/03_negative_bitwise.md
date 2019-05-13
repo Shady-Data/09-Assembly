@@ -204,4 +204,4 @@ ror rax, 1      ; rax now looks like (10000000)
 
 ## Lab 5
 
-* Proceed to lab5
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/03_ASM_Basic_Operations/Lab_5" rel="Return to TOC"> Return to TOC </a>
