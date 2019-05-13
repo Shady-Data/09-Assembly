@@ -1,4 +1,4 @@
-# Arithmetic Instructions
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a># Arithmetic Instructions
 
 ![](/imgs/math.jpg)
 
@@ -90,7 +90,6 @@ mov rax, 1      ; rax now contains 1
 inc rax         ; rax now contains 2
 inc rax         ; rax now contains 3
 dec rax         ; rax now contains 2
-```
+``
 
-## Lab3: Arithmetic Operations
-Proceed to Lab_3 and follow the instructions.
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/03_ASM_Basic_Operations/Lab_3" rel="Continue to Next Topic"> Continue to Next Topic </a>
