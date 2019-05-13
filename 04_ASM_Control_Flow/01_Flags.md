@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Flags
 
 When we talk about flags in assembly, we are refering to a register that contain a variety of bits representing state and status information. This register varies in size, but many portions (in newer processors) aren't used. 
