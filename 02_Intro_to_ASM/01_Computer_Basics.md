@@ -75,3 +75,5 @@ We won't get too far into this, but there are different CPU architectures that o
 * As we will get into here soon, different CPU Architectures will have different individual quarks and features that make them stand out. There are also different syntaxes that we will observe as well. But most importantly, we need to understand the different sizes of general purpose registers in correlation to the CPU Architecture. 64 bit CPUs for instance, will have more and larger general purpose registers whereas a 32 or 16 bit OS will only have registers up to that size. This will dictate which instructions we use and how we access different types of data. 
 
 ---
+
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/02_Intro_to_ASM/02_Asm_Basics.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
