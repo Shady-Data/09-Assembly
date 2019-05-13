@@ -11,4 +11,4 @@ cmake . && cmake --build .
 ./lab5
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/04_ASM_Control_Flow/README.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/04_ASM_Control_Flow/README.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
