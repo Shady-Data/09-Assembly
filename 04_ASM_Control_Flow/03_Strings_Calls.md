@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # String Instructions
 
 * What a "string" means to x86(_64)
@@ -81,3 +83,6 @@ cld     ; clear the direction flag, continue operations
 # Lab 8
 
 * Proceed to lab8 and follow the instructions
+
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Continue to Lab 8"> Continue to Lab 8 </a>
+https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_8
