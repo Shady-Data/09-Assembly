@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Control Flow
 
 ### Line Labels
@@ -189,4 +191,4 @@ ret
 
 # Lab 7
 
-* Proceed to lab7 and follow the instructions
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
