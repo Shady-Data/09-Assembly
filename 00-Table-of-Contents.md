@@ -29,7 +29,7 @@
   * [Flags](04_ASM_Control_Flow/01_Flags.md)
   * [Lab 6](04_ASM_Control_Flow/Lab_6/README.md)
   * [Control Flow](04_ASM_Control_Flow/02_Control_Flow.md)
-  * [Lab 7](04_ASM_Basic_Operations/Lab_7)
+  * [Lab 7](04_ASM_Basic_Operations/Lab_7/README.md)
   * [String Calls](04_ASM_Control_Flow/03_Strings_Calls.md)
   * [Lab 8](04_ASM_Basic_Operations/Lab_8)
   * [Calls](04_ASM_Control_Flow/04_Calls.md)
