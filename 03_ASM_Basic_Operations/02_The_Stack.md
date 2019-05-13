@@ -131,5 +131,5 @@ add rsp, 16
 
 # Lab 4
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/03_ASM_Basic_Operations/Lab_4" rel="Continue to Next Topic"> Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/03_ASM_Basic_Operations/Lab_4" rel="Continue to Lab 4"> Continue to Lab 4 </a>
 
