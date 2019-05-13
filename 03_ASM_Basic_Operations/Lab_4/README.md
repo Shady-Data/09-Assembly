@@ -11,4 +11,4 @@ cmake . && cmake --build .
 ./lab4
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/03_ASM_Basic_Operations/03_negative_bitwise.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/03_ASM_Basic_Operations/03_negative_bitwise.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
