@@ -1,4 +1,4 @@
 ### Once completed with the Handouts, you may procede to the next topic
 
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/ASM_Handouts" rel="Go to Python "> Go to Python </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md"> Go to Python </a>
