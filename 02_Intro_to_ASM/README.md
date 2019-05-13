@@ -39,4 +39,4 @@ content:
 * Begin debuggin with the GNU Source-Level Debugger (GDB)
 * Understand basic data sizes and types with regard to x86(_64)
 
-
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/02_Intro_to_ASM/01_Computer_Basics.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
