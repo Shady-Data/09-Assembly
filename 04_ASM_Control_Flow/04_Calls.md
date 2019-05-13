@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Function Calling Conventions
 
 ## Calling Conventions: x86
@@ -237,3 +239,5 @@ call_strlen:
 # Windows Functions Lab
 
 * Will edit with instructions on how to setup Visual Studio
+
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_8" rel="Continue to Lab 8"> Continue to Lab 8 </a>
