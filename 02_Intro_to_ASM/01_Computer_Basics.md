@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Section 1.1: Computer Basics
 
 Before we can understand assembly, we must first understand some computer basics. 
