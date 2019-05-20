@@ -12,4 +12,5 @@ cmake . && cmake --build .
 ./lab1
 ```
 
+---
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/02_Intro_to_ASM/04_DataTypes.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
