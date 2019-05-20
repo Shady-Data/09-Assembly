@@ -251,4 +251,6 @@ In C, every var must be declared for it's type. Many programers may forget to de
 * [Common Compiler Errors](http://aop.cs.cornell.edu/errors/index.html)
 * [Top 20 C Pointer Errors/Mistakes - How to Fix Them](https://www.acodersjourney.com/top-20-c-pointer-mistakes/)
 
+
+---
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/01_Debugging/04.0_IDEs.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
