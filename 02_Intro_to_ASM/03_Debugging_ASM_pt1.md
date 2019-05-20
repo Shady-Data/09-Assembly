@@ -95,4 +95,5 @@ Which translates to the opcode:
 ## Lab1
 Proceed to the Lab1 directory and follow instructions
 
+---
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/02_Intro_to_ASM/Lab_1/README.md" rel="Continue to Lab 1"> Continue to Lab 1 </a>
