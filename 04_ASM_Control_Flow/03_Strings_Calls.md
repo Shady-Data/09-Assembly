@@ -80,8 +80,8 @@ std     ; the direction flag as been set
 ; do stuff here
 cld     ; clear the direction flag, continue operations
 ```
-# Lab 8
 
-* Proceed to lab8 and follow the instructions
+---
+# Lab 8
 
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_8" rel="Continue to Lab 8"> Continue to Lab 8 </a>
