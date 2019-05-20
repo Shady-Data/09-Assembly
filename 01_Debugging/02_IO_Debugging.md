@@ -101,4 +101,5 @@ Once the bug has been identified, it is time to fix it.
 * What is the fix?
 * Now that the bug is identified, fix it, and recheck.
 
+---
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/01_Debugging/03_Understanding_Errors.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
