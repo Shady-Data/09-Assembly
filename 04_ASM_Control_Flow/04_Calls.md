@@ -232,10 +232,9 @@ call_strlen:
 
 * [More on both x64 calling conventions](https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64/)
 
-# Lab 9
+---
+# Lab 9 - Windows Functions Lab
 
-# Windows Functions Lab
-
-* Will edit with instructions on how to setup Visual Studio
+* Edit using instructions on how to setup Visual Studio
 
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_9" rel="Continue to Lab 9"> Continue to Lab 9 </a>
