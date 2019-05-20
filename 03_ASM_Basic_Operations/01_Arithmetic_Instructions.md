@@ -94,4 +94,6 @@ inc rax         ; rax now contains 3
 dec rax         ; rax now contains 2
 ```
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/03_ASM_Basic_Operations/02_The_Stack.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
