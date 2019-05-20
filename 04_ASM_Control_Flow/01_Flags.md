@@ -72,7 +72,7 @@ popf        ; flags have been restored
     * From there you can push that register back onto the stack (pushf)
     * Finally you can pop the flag off, taking the new value with it. (popf)
 
+---
 # Lab 6
 
----
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/04_ASM_Control_Flow/Lab_6/README.md" > Continue to Lab 6 </a>
