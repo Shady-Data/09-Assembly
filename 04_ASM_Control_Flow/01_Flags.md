@@ -74,6 +74,5 @@ popf        ; flags have been restored
 
 # Lab 6
 
-* Proceed to lab6 and follow the instructions
-
+---
 <a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/04_ASM_Control_Flow/Lab_6/README.md" > Continue to Lab 6 </a>
