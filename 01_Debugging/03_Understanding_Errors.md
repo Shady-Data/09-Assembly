@@ -244,7 +244,7 @@ Well, even though we ran `free()`... that doesn't mean the OS took care of that 
 
 In C, every var must be declared for it's type. Many programers may forget to declare a variable. Especially if one is creating a for loop. 
 
-### More Common Errors: To return to the curriculum from this offlink resource *Click the back <- in the upper left of your window*
+### More Common Errors: To return to the curriculum from this offlink resource Click the back <- in the upper left of your window
 
 * [Common Errors 1](http://www.edm2.com/0504/12cerr.html)
 * [Common Errors 2](https://www.thecrazyprogrammer.com/2014/08/15-common-errors-in-c-and-cpp-programming.html)
