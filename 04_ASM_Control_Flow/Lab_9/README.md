@@ -5,8 +5,6 @@
 ### Choose one of the options below or return to the Table of Contents, when complete
 
 ---
-**End of Debugging & Assembly**
-
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md"> Go to Python Programming </a>
+**End of Assembly**
 
 <a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" > Return to Course introduction </a>
