@@ -2,7 +2,6 @@
 |---|  :---:  |---|
 
 ---
----
 
 **Complete Lab 9, follow the instructions provided in the folders.**
 
