@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # String Instructions
 
@@ -81,7 +84,9 @@ std     ; the direction flag as been set
 cld     ; clear the direction flag, continue operations
 ```
 
----
-# Lab 8
+**Complete Performance Lab:** 8
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_8" rel="Continue to Lab 8"> Continue to Lab 8 </a>
+---
+
+|[Next Topic](/04_ASM_Control_Flow/Lab_8)|
+|---|
