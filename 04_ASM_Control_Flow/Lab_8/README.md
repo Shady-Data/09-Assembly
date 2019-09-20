@@ -1,4 +1,5 @@
 |[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
 Complete Lab 8, follow the instructions provided in the folders.
 
