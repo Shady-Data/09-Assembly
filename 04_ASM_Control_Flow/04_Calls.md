@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # Function Calling Conventions
 
@@ -222,6 +225,7 @@ call_strlen:
     * RAX, RCX, RDX, R8, R9, R10 and R11
     * XMMO-3 and 5
     * All others need to be preserved by the callee
+    
 * **System V:**
     * Most registers are volatile (need to be preserved by caller if the values are to be retained)
     * Exception: RBP, RBX and R12-15 are non-volatile (must be preserved by callee)
@@ -233,8 +237,10 @@ call_strlen:
 * [More on both x64 calling conventions](https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64/)
 
 ---
+
 # Lab 9 - Windows Functions Lab
 
 * Edit using instructions on how to setup Visual Studio
 
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/tree/master/04_ASM_Control_Flow/Lab_9" rel="Continue to Lab 9"> Continue to Lab 9 </a>
+|[Lab 9](/04_ASM_Control_Flow/Lab_9)|
+|---|
