@@ -1,6 +1,6 @@
 # NASM Assembly Lab Exercises
 
-1. Using expressions with symbols
+## 1. Using expressions with symbols
 
 Create a program for NASM that contains the following items:
 
@@ -16,7 +16,7 @@ variable will be, don’t you?
 
 • A one-operand instruction that adds 1 to the value in the length5 variable (think outside the box for this requirement)
 
-2.  Order of operations (Challenge Assignment)
+## 2.  Order of operations (Challenge Assignment)
 
 Create a program that calculates the following expression: answer = (A + B) – (C + D)
 
