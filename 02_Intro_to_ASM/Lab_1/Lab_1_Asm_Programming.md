@@ -3,15 +3,18 @@
 ```
 * 1. Integer Expression Calculation
 
-Using the AddTwo program as a reference, write a program that calculates the following expression, using registers: A = (A + B) − (C + D). Assign integer values to the EAX, EBX, ECX, and EDX registers.
+Using the AddTwo program as a reference, write a program that calculates the following expression,
+using registers: A = (A + B) − (C + D). Assign integer values to the EAX, EBX, ECX, and EDX registers.
 
 * 2. Symbolic Integer Constants
 
-Write a program that defines symbolic constants for all seven days of the week. Create an array variable that uses the symbols as initializers.
+Write a program that defines symbolic constants for all seven days of the week. 
+Create an array variable that uses the symbols as initializers.
 
 ** 3. Data Definitions
 
-Write a program that contains a definition of each data type listed in Table listed. Initialize each variable to a value that is consistent with its data type.
+Write a program that contains a definition of each data type listed in Table listed. 
+Initialize each variable to a value that is consistent with its data type.
 
 Table: Intrinsic Data Types.
 Type	            Usage
@@ -30,5 +33,6 @@ REAL10	  80-bit (10-byte) IEEE extended real
 
 * 4. Symbolic Text Constants
 
-Write a program that defines symbolic names for several string literals (characters between quotes). Use each symbolic name in a variable definition.
+Write a program that defines symbolic names for several string literals (characters between quotes). 
+Use each symbolic name in a variable definition.
 ```
